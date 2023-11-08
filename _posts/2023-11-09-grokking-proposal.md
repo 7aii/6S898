@@ -1,9 +1,9 @@
 ---
 layout: distill
-title: Grokking Blog Post
-description: Your blog post's abstract.
-  This is an example of a distill-style blog post and the main elements it supports.
-date: 2023-11-09
+title: Grokking Proposal
+description:
+  In the study of neural networks, “grokking” is an unusual event where a model suddenly shifts from simply memorizing to truly understanding and generalizing information. This research aims to dissect the conditions that prompt grokking by experimenting with different data sets and neural network designs. We will investigate the effects of training size, weight decay, and network complexity on grokking. Our goal is to replicate the grokking event, test theories about its causes, and clarify its relationship to the concept of double descent, providing a clearer picture of this peculiar learning behavior.
+date: 2023-11-07
 htmlwidgets: true
 
 # Anonymize when submitting
@@ -11,18 +11,18 @@ htmlwidgets: true
 #   - name: Anonymous
 
 authors:
-  - name: Albert Einstein
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+  - name: Siwakorn Fuangkawinsombut
+    # url: "https://en.wikipedia.org/wiki/Albert_Einstein"
     affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
+      name: MEng 6-3, MIT 
+  - name: Thana Somsirivattana
+    # url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
     affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-    affiliations:
-      name: IAS, Princeton
+      name: BS 18 & 6-3, MIT
+  # - name: Nathan Rosen
+  #   url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
+  #   affiliations:
+  #     name: IAS, Princeton
 
 # must be the exact same name as your blogpost
 bibliography: 2022-12-01-distill-example.bib  
@@ -31,15 +31,24 @@ bibliography: 2022-12-01-distill-example.bib
 #   - make sure that TOC names match the actual section names
 #     for hyperlinks within the post to work correctly.
 toc:
-  - name: Equations
-  - name: Images and Figures
+  - name: Introduction
+  - name: Related Works
+  - name: Exploratory Analysis
+  - name: Timeline
     subsections:
-    - name: Interactive Figures
-  - name: Citations
-  - name: Footnotes
-  - name: Code Blocks
-  - name: Layouts
-  - name: Other Typography?
+    - name: Week 1
+    - name: Week 2
+    - name: Week 3
+    - name: Week 4
+  # - name: Equations
+  # - name: Images and Figures
+  #   subsections:
+  #   - name: Interactive Figures
+  # - name: Citations
+  # - name: Footnotes
+  # - name: Code Blocks
+  # - name: Layouts
+  # - name: Other Typography?
 
 # Below is an example of injecting additional post-specific styles.
 # This is used in the 'Layouts' section of this post.
@@ -60,6 +69,42 @@ _styles: >
     font-size: 16px;
   }
 ---
+
+## Introduction
+
+This research delves into neural networks to decode the grokking phenomenon: a sudden shift from memorizing data to achieving broad generalization. We aim to identify and analyze the triggers for this leap in learning capability. We will meticulously review relevant studies, pinpoint knowledge gaps, and engage in empirical research to understand grokking’s mechanics. Our exploration will cross the boundaries from algorithmic to non-algorithmic data, evaluating the potential roles of network sparsity, the capabilities of minimalist networks, and the enigmatic delayed learning onset associated with grokking.
+
+## Related Works
+
+We’ll be dissecting the literature on grokking, tracing its progression from initial sightings in structured algorithmic environments to unexpected appearances with more complex, natural datasets. Our analytical journey will revisit Power’s foundational observations and delve into the latest theories, such as Varma’s efficient circuit hypothesis and Nanda’s approach to unpacking the network's learning mechanics.
+
+Furthermore, we’ll scrutinize pioneering studies that shed light on the internal rivalry within neural networks, examining Merrill’s discovery of subnetwork competition, Gromov’s application of modular arithmetic to straightforward network structures, and Miller’s insights into how model complexity impacts the learning process. Each piece of research enriches our understanding and provides critical context for our investigation into the grokking enigma.
+
+## Exploratory Analysis
+
+Our hands-on phase starts with attempts to recreate grokking in various settings, followed by a deep dive into why and how it happens, and how it differs from the known pattern of epoch-double-descent. We’ll be tinkering with the elements of neural networks to see what sparks this intriguing switch from memorization to generalization.
+
+## Timeline
+
+### Week 1: Foundation and Replication
+* Delve into the foundational papers on grokking.
+* Begin experiments to replicate the grokking phenomenon.
+* Visual: A stack of books and a magnifying glass, symbolizing research and discovery.
+
+### Week 2: Hypothesis and Experimentation
+* Formulate hypotheses based on week 1 insights.
+* Design and conduct targeted experiments.
+* Visual: Lightbulb and test tubes, representing ideas and experiments.
+
+### Week 3: Testing and Analysis
+* Test the proposed hypotheses in varied scenarios.
+* Analyze the data to assess the occurrence of grokking.
+* Visual: A computer screen with graphs, showing data analysis.
+
+### Week 4: Synthesis and Reporting
+* Compile and synthesize the findings.
+* Draft the research blog post to narrate the exploration journey.
+* Visual: An open laptop with a draft document on the screen, indicating the writing process.
 
 ## Equations
 
