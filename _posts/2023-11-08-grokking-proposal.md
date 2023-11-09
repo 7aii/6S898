@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Grokking Proposal
-description: What sparks the mysterious ''grokking'' in neural networks-a sudden leap in learning beyond training? This proposal outlines our blog's mission to investigate this perplexing event. We're set to explore the triggers and theories behind grokking, seeking to understand how and why these moments of unexpected intelligence occur.
+description: What sparks the mysterious “grokking”? This proposal outlines our project's plan to investigate this perplexing phenomenon. We will explore the triggers and theories behind grokking to understand why moments of unexpected intelligence occur.
 date: 2023-11-08
 htmlwidgets: true
 
@@ -55,7 +55,7 @@ _styles: >
 
 ## Introduction
 
-In the study of neural networks, “grokking” is a phenomenon first observed by (Power et. al. 2022) in which a model trained on algorithmic tasks suddenly generalize long after fitting the training data. The project aims to understand grokking and the conditions that prompt it by (i) experimenting with various data sets and model architectures; (ii) surveying plausible explanations that have been proposed; and (iii) performing further experiments to assess the plausibility of those explanations.
+In the study of neural networks, “grokking” is a phenomenon first observed by <d-cite key="power2022grokking"></d-cite> in which a model trained on algorithmic tasks suddenly generalize long after fitting the training data. The project aims to understand grokking and the conditions that prompt it by (i) experimenting with various data sets and model architectures; (ii) surveying plausible explanations that have been proposed; and (iii) performing further experiments to assess the plausibility of those explanations.
 
 ## Related Works
 
@@ -72,7 +72,7 @@ Some of the relevant papers we plan to look into are:
 8. Grokking Beyond Neural Network: An empirical exploration with model complexity<d-cite key="miller2023grokking"></d-cite>
 
 {% include figure.html path="assets/img/2023-11-08-grokking-proposal/power_plot.png" class="img-fluid" %}
-*This figure illustrates the grokking phenomenon in neural networks* <d-cite key="power2022grokking"></d-cite>
+*This figure, taken from <d-cite key="power2022grokking"></d-cite>, illustrates the grokking phenomenon.*
 
 ## Timeline
 
