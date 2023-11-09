@@ -25,7 +25,7 @@ authors:
   #     name: IAS, Princeton
 
 # must be the exact same name as your blogpost
-bibliography: 2022-12-01-distill-example.bib  
+bibliography: 2023-11-07-grokking-proposal.bib  
 
 # Add a table of contents to your post.
 #   - make sure that TOC names match the actual section names
@@ -76,9 +76,9 @@ This research delves into neural networks to decode the grokking phenomenon: a s
 
 ## Related Works
 
-We’ll be dissecting the literature on grokking, tracing its progression from initial sightings in structured algorithmic environments to unexpected appearances with more complex, natural datasets. Our analytical journey will revisit Power’s foundational observations and delve into the latest theories, such as Varma’s efficient circuit hypothesis and Nanda’s approach to unpacking the network's learning mechanics.
+We’ll be dissecting the literature on grokking, tracing its progression from initial sightings in structured algorithmic environments to unexpected appearances with more complex, natural datasets. Our analytical journey will revisit Power’s foundational observations and delve into the latest theories <d-cite key="power2022grokking"></d-cite>, such as Varma’s efficient circuit hypothesis<d-cite key="varma2023explaining"></d-cite> and Nanda’s approach to unpacking the network's learning mechanics<d-cite key="nanda2023progress"></d-cite>.
 
-Furthermore, we’ll scrutinize pioneering studies that shed light on the internal rivalry within neural networks, examining Merrill’s discovery of subnetwork competition, Gromov’s application of modular arithmetic to straightforward network structures, and Miller’s insights into how model complexity impacts the learning process. Each piece of research enriches our understanding and provides critical context for our investigation into the grokking enigma.
+Furthermore, we’ll scrutinize pioneering studies that shed light on the internal rivalry within neural networks, examining Merrill’s discovery of subnetwork competition<d-cite key="merrill2023tale"></d-cite>, Gromov’s application of modular arithmetic to straightforward network structures<d-cite key="gromov2023grokking"></d-cite>, and Miller’s insights into how model complexity impacts the learning process<d-cite key="miller2023grokking"></d-cite>. Each piece of research enriches our understanding and provides critical context for our investigation into the grokking enigma.
 
 ## Exploratory Analysis
 
@@ -89,19 +89,15 @@ Our hands-on phase starts with attempts to recreate grokking in various settings
 ### Week 1: Foundation and Replication
 * Delve into the foundational papers on grokking.
 * Begin experiments to replicate the grokking phenomenon.
-* Visual: A stack of books and a magnifying glass, symbolizing research and discovery.
 
 ### Week 2: Hypothesis and Experimentation
 * Formulate hypotheses based on week 1 insights.
 * Design and conduct targeted experiments.
-* Visual: Lightbulb and test tubes, representing ideas and experiments.
 
 ### Week 3: Testing and Analysis
 * Test the proposed hypotheses in varied scenarios.
 * Analyze the data to assess the occurrence of grokking.
-* Visual: A computer screen with graphs, showing data analysis.
 
 ### Week 4: Synthesis and Reporting
 * Compile and synthesize the findings.
 * Draft the research blog post to narrate the exploration journey.
-* Visual: An open laptop with a draft document on the screen, indicating the writing process.
