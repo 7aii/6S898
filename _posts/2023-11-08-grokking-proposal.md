@@ -1,8 +1,7 @@
 ---
 layout: distill
 title: Grokking Proposal
-description:
-  In the study of neural networks, “grokking” is a phenomenon first observed by (Power et. al. 2022) in which a model trained on algorithmic tasks suddenly generalize long after fitting the training data. The project aims to understand grokking and the conditions that prompt it by (i) experimenting with various data sets and model architectures; (ii) surveying plausible explanations that have been proposed; and (iii) performing further experiments to assess the plausibility of those explanations.
+description: What sparks the mysterious ''grokking'' in neural networks-a sudden leap in learning beyond training? This proposal outlines our blog's mission to investigate this perplexing event. We're set to explore the triggers and theories behind grokking, seeking to understand how and why these moments of unexpected intelligence occur.
 date: 2023-11-08
 htmlwidgets: true
 
@@ -12,20 +11,14 @@ htmlwidgets: true
 
 authors:
   - name: Siwakorn Fuangkawinsombut
-    # url: "https://en.wikipedia.org/wiki/Albert_Einstein"
     affiliations:
       name: MEng 6-3, MIT 
   - name: Thana Somsirivattana
-    # url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
     affiliations:
       name: BS 18 & 6-3, MIT
-  # - name: Nathan Rosen
-  #   url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-  #   affiliations:
-  #     name: IAS, Princeton
 
 # must be the exact same name as your blogpost
-bibliography: 2023-11-09-grokking-proposal.bib  
+bibliography: 2023-11-08-grokking-proposal.bib  
 
 # Add a table of contents to your post.
 #   - make sure that TOC names match the actual section names
@@ -33,7 +26,6 @@ bibliography: 2023-11-09-grokking-proposal.bib
 toc:
   - name: Introduction
   - name: Related Works
-  - name: Exploratory Analysis
   - name: Timeline
     subsections:
     - name: Week 1
@@ -78,6 +70,9 @@ Some of the relevant papers we plan to look into are:
 6. Progress measures for grokking via mechanistic interpretability<d-cite key="nanda2023progress"></d-cite>
 7. To grok or not to grok: Disentangling generalization and memorization on corrupted algorithmic data<d-cite key="doshi2023grok"></d-cite>
 8. Grokking Beyond Neural Network: An empirical exploration with model complexity<d-cite key="miller2023grokking"></d-cite>
+
+{% include figure.html path="assets/img/2023-11-08-grokking-proposal/power_plot.png" class="img-fluid" %}
+*This figure illustrates the grokking phenomenon in neural networks* <d-cite key="power2022grokking"></d-cite>
 
 ## Timeline
 
